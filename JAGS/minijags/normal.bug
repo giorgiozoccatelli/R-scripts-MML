@@ -1,0 +1,5 @@
+ model{ X ~ dnorm(0,1);
+        Y ~ dnorm(X,1);
+        Z ~ dnorm(X+Y,1)
+		      }
+		      

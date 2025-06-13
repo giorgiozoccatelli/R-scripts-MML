@@ -1,0 +1,5 @@
+ model{ for (i in 1:N) { X[i] ~ dbern(p) }
+		       S <- sum(X[]);
+		       p ~ dbeta(1,1);
+		      }
+		      
